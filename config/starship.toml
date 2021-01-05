@@ -1,0 +1,14 @@
+[username]
+format = "[$user]($style) "
+show_always = true
+[hostname]
+ssh_only = false
+format = "on [$hostname]($style) "
+[directory]
+format = "in [$path]($style)[$read_only]($read_only_style) "
+[time]
+disabled = false
+[character]
+success_symbol = "🍀"
+# success_symbol = "🚀"
+error_symbol = "🔥"
